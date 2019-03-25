@@ -1,0 +1,339 @@
+DB: Without any index with page size of 4KB
+Query and print the employee id and full name of anybody whose last name is "Rowe"; (this will be a Scan operation)
+Emp ID: 398361, Full Name: Sherman W Rowe
+Emp ID: 403530, Full Name: Aleta B Rowe
+Emp ID: 783799, Full Name: Enoch K Rowe
+Emp ID: 176587, Full Name: Kiera S Rowe
+Emp ID: 339175, Full Name: Glenn U Rowe
+Emp ID: 189582, Full Name: Zenaida J Rowe
+Emp ID: 622253, Full Name: Rhett M Rowe
+Emp ID: 771556, Full Name: Shaina E Rowe
+Emp ID: 959340, Full Name: Jacquelyne W Rowe
+Emp ID: 167422, Full Name: Alphonse Z Rowe
+Emp ID: 313265, Full Name: Flo S Rowe
+Emp ID: 631156, Full Name: Shirleen Y Rowe
+Emp ID: 689557, Full Name: Daria Y Rowe
+Emp ID: 657000, Full Name: Angel Y Rowe
+Emp ID: 199223, Full Name: Kimiko T Rowe
+Emp ID: 703373, Full Name: Beatrice H Rowe
+Emp ID: 144809, Full Name: Tommy W Rowe
+Emp ID: 808221, Full Name: Lane O Rowe
+Emp ID: 667295, Full Name: Edmund W Rowe
+Emp ID: 926265, Full Name: Ramonita M Rowe
+Emp ID: 142327, Full Name: Simonne L Rowe
+Emp ID: 540314, Full Name: Chantay R Rowe
+     Header page read counts: 1
+     Data page read counts: 27699
+     Index internal page read counts: 0
+     Index leaf page read counts: 0
+     Average page accessing time in miliseconds: 0.006111638989029926ms
+
+DB: Without any index with page size of 4KB
+Query and print the full name of employee #181162 (this is an Equality search)
+Full Name: Cristobal C Foy
+     Header page read counts: 1
+     Data page read counts: 27675
+     Index internal page read counts: 0
+     Index leaf page read counts: 0
+     Average page accessing time in miliseconds: 0.006827644890649468ms
+
+DB: Without any index with page size of 4KB
+Query and print the employee id and full name of all employees with "Emp ID" between #171800 and #171899 (This is a Range search)
+Emp ID: 171885, Full Name: Dudley R Kelemen
+Emp ID: 171816, Full Name: Corie P Alcorn
+Emp ID: 171844, Full Name: Mika O Bradshaw
+Emp ID: 171834, Full Name: Otis C Mcrae
+Emp ID: 171886, Full Name: Rosalee Q Rutz
+Emp ID: 171852, Full Name: Shemika Y Cutts
+Emp ID: 171832, Full Name: Deshawn Q Tavarez
+Emp ID: 171845, Full Name: Sanora Y Hardwick
+Emp ID: 171814, Full Name: Junita N Schoenberg
+Emp ID: 171887, Full Name: Isis N Dusek
+Emp ID: 171815, Full Name: Elenor U Kivett
+Emp ID: 171867, Full Name: Hobert G Saleh
+Emp ID: 171851, Full Name: Ashely D Flavin
+Emp ID: 171869, Full Name: Karl V Hooley
+Emp ID: 171859, Full Name: Katelyn K Moir
+Emp ID: 171896, Full Name: Joel P Berrier
+Emp ID: 171839, Full Name: Valentin Q Glassman
+Emp ID: 171892, Full Name: Porter G Sapien
+Emp ID: 171889, Full Name: Collene O Spino
+Emp ID: 171875, Full Name: Aubrey D Bounds
+Emp ID: 171858, Full Name: Mason C Burchette
+Emp ID: 171856, Full Name: Emmitt F Olmos
+Emp ID: 171826, Full Name: Winnie Q Mass
+Emp ID: 171868, Full Name: Dana E Goosby
+Emp ID: 171843, Full Name: Apryl Y Tavera
+Emp ID: 171865, Full Name: Maximo A Failla
+Emp ID: 171812, Full Name: Alise P Earnhardt
+Emp ID: 171860, Full Name: Warren M Hicklin
+Emp ID: 171879, Full Name: Darell V Motes
+Emp ID: 171849, Full Name: Bobby F Reep
+Emp ID: 171855, Full Name: Vanessa L Philpott
+Emp ID: 171874, Full Name: Elba X Finnegan
+Emp ID: 171823, Full Name: Ivana G Pool
+Emp ID: 171818, Full Name: Barney U Kirschbaum
+Emp ID: 171881, Full Name: Anamaria B Buzzell
+Emp ID: 171847, Full Name: Gwyn F Goodrum
+Emp ID: 171841, Full Name: Deon I Hallam
+Emp ID: 171895, Full Name: Lyle D Weedman
+     Header page read counts: 1
+     Data page read counts: 27699
+     Index internal page read counts: 0
+     Index leaf page read counts: 0
+     Average page accessing time in miliseconds: 0.005830516246022515ms
+
+DB: Without any index but with page size of 16KB bytes
+Query and print the employee id and full name of anybody whose last name is "Rowe" (this will be a Scan operation)
+Emp ID: 398361, Full Name: Sherman W Rowe
+Emp ID: 403530, Full Name: Aleta B Rowe
+Emp ID: 783799, Full Name: Enoch K Rowe
+Emp ID: 176587, Full Name: Kiera S Rowe
+Emp ID: 339175, Full Name: Glenn U Rowe
+Emp ID: 189582, Full Name: Zenaida J Rowe
+Emp ID: 622253, Full Name: Rhett M Rowe
+Emp ID: 771556, Full Name: Shaina E Rowe
+Emp ID: 959340, Full Name: Jacquelyne W Rowe
+Emp ID: 167422, Full Name: Alphonse Z Rowe
+Emp ID: 313265, Full Name: Flo S Rowe
+Emp ID: 631156, Full Name: Shirleen Y Rowe
+Emp ID: 689557, Full Name: Daria Y Rowe
+Emp ID: 657000, Full Name: Angel Y Rowe
+Emp ID: 199223, Full Name: Kimiko T Rowe
+Emp ID: 703373, Full Name: Beatrice H Rowe
+Emp ID: 144809, Full Name: Tommy W Rowe
+Emp ID: 808221, Full Name: Lane O Rowe
+Emp ID: 667295, Full Name: Edmund W Rowe
+Emp ID: 926265, Full Name: Ramonita M Rowe
+Emp ID: 142327, Full Name: Simonne L Rowe
+Emp ID: 540314, Full Name: Chantay R Rowe
+     Header page read counts: 1
+     Data page read counts: 6723
+     Index internal page read counts: 0
+     Index leaf page read counts: 0
+     Average page accessing time in miliseconds: 0.015372932779048542ms
+
+DB: Without any index but with page size of 16KB bytes
+Ops Query and print the full name of employee #181162 (this is an Equality search)
+Full Name: Cristobal C Foy
+     Header page read counts: 1
+     Data page read counts: 6382
+     Index internal page read counts: 0
+     Index leaf page read counts: 0
+     Average page accessing time in miliseconds: 0.016258593136766936ms
+
+DB: Without any index but with page size of 16KB bytes
+Query and print the employee id and full name of all employees with "Emp ID" between #171800 and #171899 (This is a Range search)
+Emp ID: 171885, Full Name: Dudley R Kelemen
+Emp ID: 171816, Full Name: Corie P Alcorn
+Emp ID: 171844, Full Name: Mika O Bradshaw
+Emp ID: 171834, Full Name: Otis C Mcrae
+Emp ID: 171886, Full Name: Rosalee Q Rutz
+Emp ID: 171852, Full Name: Shemika Y Cutts
+Emp ID: 171832, Full Name: Deshawn Q Tavarez
+Emp ID: 171845, Full Name: Sanora Y Hardwick
+Emp ID: 171814, Full Name: Junita N Schoenberg
+Emp ID: 171887, Full Name: Isis N Dusek
+Emp ID: 171815, Full Name: Elenor U Kivett
+Emp ID: 171867, Full Name: Hobert G Saleh
+Emp ID: 171851, Full Name: Ashely D Flavin
+Emp ID: 171869, Full Name: Karl V Hooley
+Emp ID: 171859, Full Name: Katelyn K Moir
+Emp ID: 171896, Full Name: Joel P Berrier
+Emp ID: 171839, Full Name: Valentin Q Glassman
+Emp ID: 171892, Full Name: Porter G Sapien
+Emp ID: 171889, Full Name: Collene O Spino
+Emp ID: 171875, Full Name: Aubrey D Bounds
+Emp ID: 171858, Full Name: Mason C Burchette
+Emp ID: 171856, Full Name: Emmitt F Olmos
+Emp ID: 171826, Full Name: Winnie Q Mass
+Emp ID: 171868, Full Name: Dana E Goosby
+Emp ID: 171843, Full Name: Apryl Y Tavera
+Emp ID: 171865, Full Name: Maximo A Failla
+Emp ID: 171812, Full Name: Alise P Earnhardt
+Emp ID: 171860, Full Name: Warren M Hicklin
+Emp ID: 171879, Full Name: Darell V Motes
+Emp ID: 171849, Full Name: Bobby F Reep
+Emp ID: 171855, Full Name: Vanessa L Philpott
+Emp ID: 171874, Full Name: Elba X Finnegan
+Emp ID: 171823, Full Name: Ivana G Pool
+Emp ID: 171818, Full Name: Barney U Kirschbaum
+Emp ID: 171881, Full Name: Anamaria B Buzzell
+Emp ID: 171847, Full Name: Gwyn F Goodrum
+Emp ID: 171841, Full Name: Deon I Hallam
+Emp ID: 171895, Full Name: Lyle D Weedman
+     Header page read counts: 1
+     Data page read counts: 6723
+     Index internal page read counts: 0
+     Index leaf page read counts: 0
+     Average page accessing time in miliseconds: 0.01597262046637934ms
+
+DB: With primary index on "Emp ID" column (Unclusterd Index) with page size of 4KB
+Query and print the employee id and full name of anybody whose last name is "Rowe" (this will be a Scan operation)
+Emp ID: 398361, Full Name: Sherman W Rowe
+Emp ID: 403530, Full Name: Aleta B Rowe
+Emp ID: 783799, Full Name: Enoch K Rowe
+Emp ID: 176587, Full Name: Kiera S Rowe
+Emp ID: 339175, Full Name: Glenn U Rowe
+Emp ID: 189582, Full Name: Zenaida J Rowe
+Emp ID: 622253, Full Name: Rhett M Rowe
+Emp ID: 771556, Full Name: Shaina E Rowe
+Emp ID: 959340, Full Name: Jacquelyne W Rowe
+Emp ID: 167422, Full Name: Alphonse Z Rowe
+Emp ID: 313265, Full Name: Flo S Rowe
+Emp ID: 631156, Full Name: Shirleen Y Rowe
+Emp ID: 689557, Full Name: Daria Y Rowe
+Emp ID: 657000, Full Name: Angel Y Rowe
+Emp ID: 199223, Full Name: Kimiko T Rowe
+Emp ID: 703373, Full Name: Beatrice H Rowe
+Emp ID: 144809, Full Name: Tommy W Rowe
+Emp ID: 808221, Full Name: Lane O Rowe
+Emp ID: 667295, Full Name: Edmund W Rowe
+Emp ID: 926265, Full Name: Ramonita M Rowe
+Emp ID: 142327, Full Name: Simonne L Rowe
+Emp ID: 540314, Full Name: Chantay R Rowe
+     Header page read counts: 1
+     Data page read counts: 27699
+     Index internal page read counts: 0
+     Index leaf page read counts: 0
+     Average page accessing time in miliseconds: 0.00710893862540924ms
+
+DB: With primary index on "Emp ID" column (Unclusterd Index) with page size of 4KB
+Query and print the full name of employee #181162 (this is an Equality search)
+Full Name: Cristobal C Foy
+     Header page read counts: 1
+     Data page read counts: 3
+     Index internal page read counts: 2
+     Index leaf page read counts: 1
+     Average page accessing time in miliseconds: 0.016357141638374224ms
+
+DB: With primary index on "Emp ID" column (Unclusterd Index) with page size of 4KB
+Query and print the employee id and full name of all employees with "Emp ID" between #171800 and #171899 (This is a Range search)
+Full Name: Alise P Earnhardt
+Full Name: Junita N Schoenberg
+Full Name: Elenor U Kivett
+Full Name: Corie P Alcorn
+Full Name: Barney U Kirschbaum
+Full Name: Ivana G Pool
+Full Name: Winnie Q Mass
+Full Name: Deshawn Q Tavarez
+Full Name: Otis C Mcrae
+Full Name: Valentin Q Glassman
+Full Name: Deon I Hallam
+Full Name: Apryl Y Tavera
+Full Name: Mika O Bradshaw
+Full Name: Sanora Y Hardwick
+Full Name: Gwyn F Goodrum
+Full Name: Bobby F Reep
+Full Name: Ashely D Flavin
+Full Name: Shemika Y Cutts
+Full Name: Vanessa L Philpott
+Full Name: Emmitt F Olmos
+Full Name: Mason C Burchette
+Full Name: Katelyn K Moir
+Full Name: Warren M Hicklin
+Full Name: Maximo A Failla
+Full Name: Hobert G Saleh
+Full Name: Dana E Goosby
+Full Name: Karl V Hooley
+Full Name: Elba X Finnegan
+Full Name: Aubrey D Bounds
+Full Name: Darell V Motes
+Full Name: Anamaria B Buzzell
+Full Name: Dudley R Kelemen
+Full Name: Rosalee Q Rutz
+Full Name: Isis N Dusek
+Full Name: Collene O Spino
+Full Name: Porter G Sapien
+Full Name: Lyle D Weedman
+Full Name: Joel P Berrier
+     Header page read counts: 1
+     Data page read counts: 114
+     Index internal page read counts: 3
+     Index leaf page read counts: 4
+     Average page accessing time in miliseconds: 0.014068234903628336ms
+
+DB: With primary index on "Emp ID" column but defined as clustered with page size of 4KB
+Query and print the employee id and full name of anybody whose last name is "Rowe" (this will be a Scan operation)
+Emp ID: 142327, Full Name: Simonne L Rowe
+Emp ID: 144809, Full Name: Tommy W Rowe
+Emp ID: 167422, Full Name: Alphonse Z Rowe
+Emp ID: 176587, Full Name: Kiera S Rowe
+Emp ID: 189582, Full Name: Zenaida J Rowe
+Emp ID: 199223, Full Name: Kimiko T Rowe
+Emp ID: 313265, Full Name: Flo S Rowe
+Emp ID: 339175, Full Name: Glenn U Rowe
+Emp ID: 398361, Full Name: Sherman W Rowe
+Emp ID: 403530, Full Name: Aleta B Rowe
+Emp ID: 540314, Full Name: Chantay R Rowe
+Emp ID: 622253, Full Name: Rhett M Rowe
+Emp ID: 631156, Full Name: Shirleen Y Rowe
+Emp ID: 657000, Full Name: Angel Y Rowe
+Emp ID: 667295, Full Name: Edmund W Rowe
+Emp ID: 689557, Full Name: Daria Y Rowe
+Emp ID: 703373, Full Name: Beatrice H Rowe
+Emp ID: 771556, Full Name: Shaina E Rowe
+Emp ID: 783799, Full Name: Enoch K Rowe
+Emp ID: 808221, Full Name: Lane O Rowe
+Emp ID: 926265, Full Name: Ramonita M Rowe
+Emp ID: 959340, Full Name: Jacquelyne W Rowe
+     Header page read counts: 1
+     Data page read counts: 0
+     Index internal page read counts: 2437
+     Index leaf page read counts: 29516
+     Average page accessing time in miliseconds: 0.019429996272781414ms
+
+DB: With primary index on "Emp ID" column but defined as clustered with page size of 4KB
+Query and print the full name of employee #181162 (this is an Equality search)
+Full Name: Cristobal C Foy
+     Header page read counts: 1
+     Data page read counts: 0
+     Index internal page read counts: 4
+     Index leaf page read counts: 1
+     Average page accessing time in miliseconds: 0.010366666780707115ms
+
+DB: With primary index on "Emp ID" column but defined as clustered with page size of 4KB
+Query and print the employee id and full name of all employees with "Emp ID" between #171800 and #171899 (This is a Range search)
+Emp ID: 171812, Full Name: Alise P Earnhardt
+Emp ID: 171814, Full Name: Junita N Schoenberg
+Emp ID: 171815, Full Name: Elenor U Kivett
+Emp ID: 171816, Full Name: Corie P Alcorn
+Emp ID: 171818, Full Name: Barney U Kirschbaum
+Emp ID: 171823, Full Name: Ivana G Pool
+Emp ID: 171826, Full Name: Winnie Q Mass
+Emp ID: 171832, Full Name: Deshawn Q Tavarez
+Emp ID: 171834, Full Name: Otis C Mcrae
+Emp ID: 171839, Full Name: Valentin Q Glassman
+Emp ID: 171841, Full Name: Deon I Hallam
+Emp ID: 171843, Full Name: Apryl Y Tavera
+Emp ID: 171844, Full Name: Mika O Bradshaw
+Emp ID: 171845, Full Name: Sanora Y Hardwick
+Emp ID: 171847, Full Name: Gwyn F Goodrum
+Emp ID: 171849, Full Name: Bobby F Reep
+Emp ID: 171851, Full Name: Ashely D Flavin
+Emp ID: 171852, Full Name: Shemika Y Cutts
+Emp ID: 171855, Full Name: Vanessa L Philpott
+Emp ID: 171856, Full Name: Emmitt F Olmos
+Emp ID: 171858, Full Name: Mason C Burchette
+Emp ID: 171859, Full Name: Katelyn K Moir
+Emp ID: 171860, Full Name: Warren M Hicklin
+Emp ID: 171865, Full Name: Maximo A Failla
+Emp ID: 171867, Full Name: Hobert G Saleh
+Emp ID: 171868, Full Name: Dana E Goosby
+Emp ID: 171869, Full Name: Karl V Hooley
+Emp ID: 171874, Full Name: Elba X Finnegan
+Emp ID: 171875, Full Name: Aubrey D Bounds
+Emp ID: 171879, Full Name: Darell V Motes
+Emp ID: 171881, Full Name: Anamaria B Buzzell
+Emp ID: 171885, Full Name: Dudley R Kelemen
+Emp ID: 171886, Full Name: Rosalee Q Rutz
+Emp ID: 171887, Full Name: Isis N Dusek
+Emp ID: 171889, Full Name: Collene O Spino
+Emp ID: 171892, Full Name: Porter G Sapien
+Emp ID: 171895, Full Name: Lyle D Weedman
+Emp ID: 171896, Full Name: Joel P Berrier
+     Header page read counts: 1
+     Data page read counts: 0
+     Index internal page read counts: 16
+     Index leaf page read counts: 19
+     Average page accessing time in miliseconds: 0.011150000621758712ms
